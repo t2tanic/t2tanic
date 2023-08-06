@@ -9,6 +9,9 @@ numpy = "*"
 pandas = "*"
 altair = "*"
 pillow = "*"
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
 

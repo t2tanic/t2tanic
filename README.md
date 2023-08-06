@@ -39,3 +39,12 @@ $ docker ps
 CONTAINER ID   IMAGE           COMMAND                  CREATED          STATUS          PORTS                    NAMES
 92d1841c87e6   t2tanic:0.2.2   "streamlit run app.p…"   3 seconds ago    Up 2 seconds    0.0.0.0:8888->8080/tcp   t2tanic
 ```
+
+### use jupyter
+```
+python -m jupyter notebook --no-browser --notebook-dir=/Users/m2/code/t2tanic --NotebookApp.token=abcd --NotebookApp.port=7942
+```
+
+----
+# Referenced
+- 캐글 타이타닉 생존자 분석하기, https://speedanddirection.tistory.com/66
