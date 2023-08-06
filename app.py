@@ -17,7 +17,7 @@ c = alt.Chart(df).mark_circle().encode(
     ).properties(width=width, height=300)
 st.write(c)
 
-image = Image.open('images/logo.webp')
+image = Image.open('logo.webp')
 st.image(image, width=width, caption=msg)
 
 code = f'''import numpy as np
@@ -39,6 +39,6 @@ c = alt.Chart(df).mark_circle().encode(
     ).properties(width=width, height=300)
 st.write(c)
 
-image = Image.open('images/logo.webp')
+image = Image.open('logo.webp')
 st.image(image, width=width, caption=msg)'''
 st.code(code, language='python', line_numbers=True)
